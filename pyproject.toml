@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jarvis-ai-voice-assistant"
+version = "1.0.0"
+description = "A modular Python voice assistant with speech recognition, text-to-speech, web search, weather, and browser automation."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Ansh Tyagi" }
+]
+keywords = [
+    "python",
+    "voice-assistant",
+    "jarvis",
+    "speech-recognition",
+    "text-to-speech",
+    "automation",
+    "web-search"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

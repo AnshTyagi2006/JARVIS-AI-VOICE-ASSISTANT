@@ -1,0 +1,14 @@
+SpeechRecognition
+pyttsx3
+pywhatkit
+pyjokes
+playsound3
+requests
+python-dotenv
+openai
+ddgs
+PyAudio; sys_platform == "win32"
+pytest
+flask
+flask-cors
+gunicorn
